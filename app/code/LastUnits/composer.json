@@ -1,0 +1,17 @@
+{
+  "name": "lastunits/module-lastunits",
+  "description": "Magento 2 module for displaying a custom tag for products with low stock.",
+  "require": {
+      "php": "~7.3||~7.4"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "autoload": {
+      "files": [
+          "registration.php"
+      ],
+      "psr-4": {
+          "LastUnits\\": ""
+      }
+  }
+}
